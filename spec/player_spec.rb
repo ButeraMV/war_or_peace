@@ -3,7 +3,7 @@ require './lib/card'
 require './lib/deck'
 require './lib/player'
 
-RSpec.describe Deck do
+RSpec.describe Player do
   before(:all) do
     @card = Card.new(:diamond, 'Queen', 12)
     @deck = Deck.new([@card])
